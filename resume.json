@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Patrik Martinsson",
+    "label": "Linux System Administrator",
+    "picture": "https://www.redlin.se/images/contact/patrik.png",
+    "email": "patrik@redlin.se",
+    "phone": "(+46) 707 27 64 96",
+    "website": "www.redlin.se",
+    "website_img": "https://www.redlin.se/images/logo-no-text-no-borders.svg",
+    "summary": "My name is Patrik Martinsson and I'm a Linux System Administrator from Stockholm, Sweden. I'm a Linux-enthusiast, active in the community with various bug reports, patches, discussions, etc. I'm always eager to learn new things and can adapt very quickly to various kinds of situations. I’m running my own company called <a href='https://www.redlin.se'>RedLin</a>, specializing on Red Hat products.",
+    "languages": "Swedish | English",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Stockholm",
+      "countryCode": "",
+      "region": "Sweden"
+    },
+    "profiles": [{
+      "network": "linkedin",
+      "username": "linkedin",
+      "url": "https://www.linkedin.com/in/patrikmartinsson/"
+    },{
+      "network": "gitHub",
+      "username": "github",
+      "url": "https://github.com/patchon"
+    },{
+      "network": "stack-overflow",
+      "username": "stackoverflow",
+      "url": "https://stackoverflow.com/users/2253454/patrik-martinsson"
+    },{
+      "network": "redhat",
+      "username": "redhat certified engineer",
+      "url": "https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ="
+    }
+  ]
+  },
+  "skills": [{
+    "name": "Linux",
+    "level": "Master",
+    "keywords": [
+      "red hat",
+      "bash",
+      "gnu tools",
+      "rpm packaging",
+      "docker",
+      "podman",
+      "kerberos",
+      "nginx",
+      "apache"
+    ]
+  },{
+    "name": "Automation",
+    "level": "Master",
+    "keywords": [
+      "ansible",
+      "puppet",
+      "foreman",
+      "ansible tower",
+      "anaconda",
+      "kickstart",
+      "pxe"
+    ]
+  },{
+    "name": "Cloud",
+    "level": "Advanced",
+    "keywords": [
+      "red hat director",
+      "openstack",
+      "ceph"
+    ]
+  },{
+    "name": "API",
+    "level": "Advanced",
+    "keywords": [
+      "vmware vsphere",
+      "openstack",
+      "jira",
+      "ca servicedesk",
+      "infoblox",
+      "cisco ucs",
+      "itrs op5 monitor"
+    ]
+  },{
+    "name": "Programming",
+    "level": "Advanced",
+    "keywords": [
+      "perl",
+      "python",
+      "php",
+      "go",
+      "c / c++",
+      "javascript",
+      "regular expressions"
+    ]
+  },{
+    "name": "Integration",
+    "level": "Master",
+    "keywords": [
+      "active directory",
+      "ldap",
+      "single sign on"
+    ]
+  }
+],
+  "topic_count": false,
+  "work": [{
+    "company": "RedLin PM AB",
+    "position": "Linux System Administrator and Founder",
+    "website": "https://www.redlin.se",
+    "startDate": "2020-05-01",
+    "endDate": "",
+    "keywords": [
+      "red hat",
+      "consulting",
+      "linux system administrator",
+      "automation",
+      "standardize",
+      "development"
+    ],
+    "summary": "RedLin is created and owned by Patrik Martinsson who has been in love with Red Hat for over a decade. We help our customers to automate, standardize and develop their infrastructure with the help of Linux and Red Hat products. At RedLin we can take on roles such as,",
+    "highlights": [
+      { "indentclass": "", "detail":"Site Reliability Engineer"},
+      { "indentclass": "", "detail":"Linux System Adminstrator"},
+      { "indentclass": "", "detail":"DevOps Engineer"}
+    ],
+    "summary_continue": "At RedLin we are used to tools such as Ansible and Puppet for automation and consistency. We also recognize the importance of having continuous deployment pipelines in place, not only for things like products and container images, but also for other parts of the infrastructure. Together with you, we want to build an fully automated, daily patched, high availability infrastructure.\n\nWe simply provide expertise and tailored solutions primarily built on Linux and Red Hat products."
+  },{
+    "company": "TriOptima",
+    "position": "Linux System Administrator",
+    "website": "https://www.trioptima.com",
+    "startDate": "2016-04-01",
+    "endDate": "2019-11-22",
+    "keywords": [
+      "openstack",
+      "ceph",
+      "red hat director",
+      "ansible",
+      "cloud",
+      "terraform",
+      "kerberos"
+    ],
+    "summary": "My main responsibilities at TriOptima has been the installation, configuration and design of their Openstack and Ceph platform. The setup spans over three data centers and is based on Red Hat Openstack Platform 13 and Red Hat Ceph Storage 3. The design includes everything from different availability zones, storage pools (both local and stretched between multiple data centers), and involves roughly 50 nodes. The deployment of OpenStack is done through the Red Hat Director, while Ceph is being deployed using the Ceph Ansible Playbook. We have chosen this configuration to get an environment that scales and fulfills our internal customers requirements. \n During the implementation I’ve encountered quite a few bugs in various components (neutron, octavia, heat-templates, networkmanager) which have actively been reported upstream (also monkey patched a few things locally to work around numerous deployment issues).\n On top of that I’ve also built our own internal portal where the users can create, delete and manage access to their projects. Authentication to the portal, and to the cloud, is done via Kerberos (Active Directory) and supports Single Sign On. "
+  },{
+    "company": "SMHI",
+    "position": "Linux System Administrator",
+    "website": "https://www.smhi.se",
+    "startDate": "2008-05-16",
+    "endDate": "2016-01-22",
+    "keywords": [
+      "puppet",
+      "foreman",
+      "cisco ucs",
+      "itrs op5 monitor",
+      "automation",
+      "vmware",
+      "infoblox",
+      "nfs"
+    ],
+    "summary": "My 'day-to-day'-tasks consisted of managing ~ 1000 Red Hat Enterprise Servers and ~ 150 Red Hat Enterprise Clients. Usually it involves making sure everything is up running and that the setups are consistent. This is essentially done by Puppet, Ansible and various automation-scripts (preferable in bash, perl or python). I've done a lot of scripting to various parts of our infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet, ITRS OP5 Monitor, Cacti, Various CA technologies products, etc. As previously mentioned, my job often consisted of setting up, configuring, re-configuring, purging servers, so scripting is quite essential. I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,",
+    "highlights": [
+      { "indentclass": "", "detail": "Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)"},
+      { "indentclass": "", "detail": "File shares (NFSv3, NFSv4 + Kerberos, automount)"},
+      { "indentclass": "", "detail": "Wireless 802.1x (Certificate enrolment through SCEP)"},
+      { "indentclass": "", "detail": "Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)"}
+    ]    }
+],
+  "volunteer": [{
+    "organization": "SIDA",
+    "position": "Linux System Administrator",
+    "startDate": "2013-10-13",
+    "endDate": "2013-11-01",
+    "summary": "On behalf of the SIDA-organisation I've been visiting the “Department of Meteorological Services” in Botswana two times. My workthere has mostly consisted of deploying Linux Servers and setting up a “Request Tracker” - system and a wiki. The Biggest challenges with these missions has been the lack of infrastructure, internet access and the fact that everything has to be done while being there, no remote work has been possible.",
+    "keywords": [
+      "request tracker",
+      "mediawiki",
+      "virtualization"
+    ]
+  }],
+  "education": [{
+    "institution": "Umeå University, Linné University",
+    "area": "Separate Courses",
+    "startDate": "2009-01-01",
+    "endDate": "2010-01-01",
+    "courses": [
+      { "name": "Linux as a developing platform", "keywords": ["c","gcc","make", "shell"] },
+      { "name": "Structured Programming with C++", "keywords": ["object oriented c++", "classes", "boost"] }
+    ]
+  },{
+    "institution": "Jensen Education",
+    "area": "Linux System administration",
+    "startDate": "2007-01-01",
+    "endDate": "2009-01-01",
+    "courses": [{
+        "name": "Database Administration",
+        "keywords": ["SQL","relational database theory","database modelling","normalization","troubleshooting"]
+      },{
+        "name": "Network and computer communicationn",
+        "keywords": ["inetd","xinetd","postfix","bind","apache","nfs","ldap"]
+      },{
+        "name": "The Operating System Linux",
+        "keywords": ["gnu tools","file system","file permissions","pipes","regular expressions"]
+      },{
+        "name": "Programming in Linux",
+        "keywords": ["Compiling","shell scripting","perl","python","bash","monitoring"]
+      },{
+        "name": "System Administration Linux",
+        "keywords": ["user management","logging","backup","kernel modules","virtualization","storage solution"]
+      },{
+        "name": "Web server administration",
+        "keywords": ["virtual hosts","server side includes","cgi-scripts","ssl","logging"]
+      }
+    ]
+  }
+]}

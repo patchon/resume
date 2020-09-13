@@ -1,0 +1,1519 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Patrik Martinsson</title>
+  <script src="https://kit.fontawesome.com/2eb00a94c1.js" crossorigin="anonymous"></script>
+
+
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
+
+a {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* main container */
+
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* every section wrapper */
+
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header>#profiles,
+#header>#contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header>div {
+    line-height: 1.5;
+}
+
+#header>div>div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section>header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section>header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary>section {
+    margin: 0;
+}
+
+.section>section>header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section>section>header:first-of-type {
+    margin: 0;
+}
+
+.section>section>header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "| "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: inline-table;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+
+}
+
+/* Social Media Brand Colors */
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+
+/* Skill chart */
+
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  visibility: hidden;
+  display:none;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+    #resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+    #resume {
+        width: 900px;
+        margin: 2rem auto;
+    }
+    .section>section>header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .section>section {
+        margin-left: 1.67rem;
+    }
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+    .display {
+        display: none;
+    }
+    .display:not(.none) {
+        display: block;
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+    @page {
+        margin: 1cm 1.4cm;
+    }
+    .item-count {
+        display: none;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+    .main-summary {
+        padding: 2rem 0;
+    }
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+    .section header {
+        padding-bottom: .15rem;
+    }
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+    .fa.social {
+        color: #828386;
+    }
+    ul {
+        margin-top: .4em;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+    #skills .keywords::before {
+        content: '';
+    }
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+    .level .bar {
+        display: none;
+    }
+    #profiles .item {
+        padding: 0;
+    }
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+
+
+/*
+ * Overrides
+*/
+
+/*
+ * General
+*/
+
+p{
+  font-size: 11px;
+}
+
+/* Keywords */
+ul.keywords li,
+ul.courses li{
+  border-radius: 3px;
+  margin-top: .3em;
+  font-size: 11.5px;
+}
+
+.ul-margin{
+  margin-left: 5px;
+}
+
+/* Make sure the date floats to the right */
+.section header .date{
+  float: right;
+}
+
+/* Make sure header and date is on the same row */
+.header-left{
+  display: inline;
+}
+
+/* Remove padding from the container to fit in two pages in pdf */
+#resume{
+  padding: 0px;
+}
+
+
+
+/*
+ * Basic section
+*/
+
+.website img{
+  width: 15px;
+  margin-top: -1px;
+}
+
+.fix-pixel-perfect{
+  margin-bottom: 1px;
+  margin-left: 4px;
+}
+
+.url a{
+  margin-left: 4px;
+}
+
+.languages{
+  color:#0f9bff
+}
+
+.main-summary{
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+
+
+/*
+ * Fontawesome icons
+*/
+
+.fab.social{
+  font-size: 1.3em;
+  padding-top: 5px;
+}
+
+.fab.fa-redhat{
+  color: #F5606D;
+}
+
+.fas{
+  background: white;
+  padding-right: 6px;
+  font-size: 1.2em;
+  margin-right: -4px;
+}
+
+.fas.fa-briefcase{
+  color: #70abd5;
+}
+
+.fas.fa-tools{
+  color: #59c596;
+}
+
+.fas.fa-hands-helping{
+  vertical-align: middle;
+  color: #89c35d;
+}
+
+.fas.fa-graduation-cap{
+  transform: rotate(-25deg);
+  color: #6e8ee8;
+}
+
+.fas.fa-globe-americas{
+  color: #369846;
+}
+
+
+
+
+/*
+ * Skill box
+*/
+
+#skills{
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+#skills .item{
+  padding: 5px;
+  padding-right: 6px;
+  padding-bottom: 15px;
+  width: 13em;
+}
+
+#skills > div:nth-child(1),
+#skills > div:nth-child(4){
+  padding-left: 20px;
+}
+
+.level .bar{
+  border-radius: 3px;
+}
+
+.margin1{
+  margin-bottom: 2.5rem!important;
+  margin-top: 3rem!important;
+}
+
+
+
+/*
+ * Work experience
+*/
+
+#work > section:nth-child(1){
+  margin-top: 1rem;
+}
+
+#work > section:nth-child(2){
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+#work-item{
+  padding-top: 0px;
+}
+
+.section-work{
+  margin-bottom: 9px;
+}
+
+
+/*
+ * Education
+*/
+
+ul.education-course{
+    margin-top: 5px;
+}
+
+ul.education-course li p {
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+ul.education-course li span {
+  border-radius: 3px;
+  margin-top: .3em;
+  font-size: 11px!important;
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+  padding: 4px 5px 5px;
+  font-size: .9rem;
+  line-height: 1;
+  text-transform: lowercase;
+  color: #3e6d8e;
+  background-color: #dfeaf1;
+  border: 0 solid #dfeaf1;
+  white-space: nowrap;
+}
+
+.education-item {
+  padding-top: 7px!important;
+}
+
+.section-education{
+  margin-bottom: 0px;
+}
+
+.title-education{
+  padding-left: 2px!important;
+}
+
+
+
+/*
+ * Volunteer
+*/
+
+#volunteer > section > div{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: -5px;
+}
+
+.volunteer-item{
+  padding-top: 4px!important;
+}
+  </style>
+
+  </head>
+  <body>
+
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="picture" src="https://www.redlin.se/images/contact/patrik.png" alt="Patrik Martinsson" />
+    		<div class="middle">
+    			<h1 class="name">Patrik Martinsson</h1>
+    			<h2 class="label-work">Linux System Administrator</h2>
+    		</div>
+    
+    		<span class="location">
+    			<span class="city">Stockholm,</span>
+    			<span class="region">Sweden</span>
+    		</span>
+    
+    
+    		<div id="contact">
+    			<div class="website">
+    				<!--<span class="fa fa-external-link"></span>-->
+    				<img src="https://www.redlin.se/images/logo-no-text-no-borders.svg">
+    				<a target="_blank" target="_blank" class="fix-pixel-perfect" href="https://www.redlin.se">www.redlin.se</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:patrik@redlin.se">patrik@redlin.se</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:(+46) 707 27 64 96">(+46) 707 27 64 96</a>
+    			</div>
+    			<div class="languages">
+    				<span class="fas fa-globe-americas"></span>
+    				<span>Swedish | English</span>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/patrikmartinsson/">linkedin</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/patchon">github</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-stack-overflow stack-overflow social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://stackoverflow.com/users/2253454/patrik-martinsson">stackoverflow</a>
+    					</span>
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-redhat redhat social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ&#x3D;">redhat certified engineer</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>My name is Patrik Martinsson and I'm a Linux System Administrator from Stockholm, Sweden. I'm a Linux-enthusiast, active in the community with various bug reports, patches, discussions, etc. I'm always eager to learn new things and can adapt very quickly to various kinds of situations. I’m running my own company called <a href='https://www.redlin.se'>RedLin</a>, specializing on Red Hat products.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<i class="fas fa-tools" aria-hidden="true"></i>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Linux
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=red hat>red hat</li>
+    				<li class=bash>bash</li>
+    				<li class=gnu tools>gnu tools</li>
+    				<li class=rpm packaging>rpm packaging</li>
+    				<li class=docker>docker</li>
+    				<li class=podman>podman</li>
+    				<li class=kerberos>kerberos</li>
+    				<li class=nginx>nginx</li>
+    				<li class=apache>apache</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Automation
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=ansible>ansible</li>
+    				<li class=puppet>puppet</li>
+    				<li class=foreman>foreman</li>
+    				<li class=ansible tower>ansible tower</li>
+    				<li class=anaconda>anaconda</li>
+    				<li class=kickstart>kickstart</li>
+    				<li class=pxe>pxe</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Cloud
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=red hat director>red hat director</li>
+    				<li class=openstack>openstack</li>
+    				<li class=ceph>ceph</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				API
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=vmware vsphere>vmware vsphere</li>
+    				<li class=openstack>openstack</li>
+    				<li class=jira>jira</li>
+    				<li class=ca servicedesk>ca servicedesk</li>
+    				<li class=infoblox>infoblox</li>
+    				<li class=cisco ucs>cisco ucs</li>
+    				<li class=itrs op5 monitor>itrs op5 monitor</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Programming
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=perl>perl</li>
+    				<li class=python>python</li>
+    				<li class=php>php</li>
+    				<li class=go>go</li>
+    				<li class=c / c++>c / c++</li>
+    				<li class=javascript>javascript</li>
+    				<li class=regular expressions>regular expressions</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Integration
+    			</h3>
+    			 
+    			<div class="level master">
+    				<em>Master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li class=active directory>active directory</li>
+    				<li class=ldap>ldap</li>
+    				<li class=single sign on>single sign on</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section section-work">
+      <header>
+    		<i class="fas fa-briefcase" aria-hidden="true"></i>
+        <h2 class='section-title'>Work Experience </h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">Linux System Administrator and Founder</div>
+    				<div class="company">RedLin PM AB</div>
+    				<div class="date">
+    				  <span class="startDate">May 2020</span>
+    					<span class="endDate"> - Current</span>
+    				</div>
+    			</header>
+    
+        	<span class="website">
+        		<a target="_blank" href="https://www.redlin.se">https://www.redlin.se</a>
+        	</span>  
+        	<ul class="keywords">
+          	<li>red hat</li>
+          	<li>consulting</li>
+          	<li>linux system administrator</li>
+          	<li>automation</li>
+          	<li>standardize</li>
+          	<li>development</li>
+        	</ul>
+        	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>RedLin is created and owned by Patrik Martinsson who has been in love with Red Hat for over a decade. We help our customers to automate, standardize and develop their infrastructure with the help of Linux and Red Hat products. At RedLin we can take on roles such as,</p></p>
+            </div>
+            <ul class="highlights ul-margin">
+    	            <li><p>Site Reliability Engineer</p></li>
+    	            <li><p>Linux System Adminstrator</p></li>
+    	            <li><p>DevOps Engineer</p></li>
+            </ul>
+            <div class="summary">
+              <p><p>At RedLin we are used to tools such as Ansible and Puppet for automation and consistency. We also recognize the importance of having continuous deployment pipelines in place, not only for things like products and container images, but also for other parts of the infrastructure. Together with you, we want to build an fully automated, daily patched, high availability infrastructure.</p><p>We simply provide expertise and tailored solutions primarily built on Linux and Red Hat products.</p></p>
+            </div>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Linux System Administrator</div>
+    				<div class="company">TriOptima</div>
+    				<div class="date">
+    				  <span class="startDate">April 2016</span>
+    					<span class="endDate"> - November 2019</span>
+    				</div>
+    			</header>
+    
+        	<span class="website">
+        		<a target="_blank" href="https://www.trioptima.com">https://www.trioptima.com</a>
+        	</span>  
+        	<ul class="keywords">
+          	<li>openstack</li>
+          	<li>ceph</li>
+          	<li>red hat director</li>
+          	<li>ansible</li>
+          	<li>cloud</li>
+          	<li>terraform</li>
+          	<li>kerberos</li>
+        	</ul>
+        	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>My main responsibilities at TriOptima has been the installation, configuration and design of their Openstack and Ceph platform. The setup spans over three data centers and is based on Red Hat Openstack Platform 13 and Red Hat Ceph Storage 3. The design includes everything from different availability zones, storage pools (both local and stretched between multiple data centers), and involves roughly 50 nodes. The deployment of OpenStack is done through the Red Hat Director, while Ceph is being deployed using the Ceph Ansible Playbook. We have chosen this configuration to get an environment that scales and fulfills our internal customers requirements. </p><p> During the implementation I’ve encountered quite a few bugs in various components (neutron, octavia, heat-templates, networkmanager) which have actively been reported upstream (also monkey patched a few things locally to work around numerous deployment issues).</p><p> On top of that I’ve also built our own internal portal where the users can create, delete and manage access to their projects. Authentication to the portal, and to the cloud, is done via Kerberos (Active Directory) and supports Single Sign On. </p></p>
+            </div>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
+    
+    			<header>
+    				<div class="position">Linux System Administrator</div>
+    				<div class="company">SMHI</div>
+    				<div class="date">
+    				  <span class="startDate">May 2008</span>
+    					<span class="endDate"> - January 2016</span>
+    				</div>
+    			</header>
+    
+        	<span class="website">
+        		<a target="_blank" href="https://www.smhi.se">https://www.smhi.se</a>
+        	</span>  
+        	<ul class="keywords">
+          	<li>puppet</li>
+          	<li>foreman</li>
+          	<li>cisco ucs</li>
+          	<li>itrs op5 monitor</li>
+          	<li>automation</li>
+          	<li>vmware</li>
+          	<li>infoblox</li>
+          	<li>nfs</li>
+        	</ul>
+        	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>My 'day-to-day'-tasks consisted of managing ~ 1000 Red Hat Enterprise Servers and ~ 150 Red Hat Enterprise Clients. Usually it involves making sure everything is up running and that the setups are consistent. This is essentially done by Puppet, Ansible and various automation-scripts (preferable in bash, perl or python). I've done a lot of scripting to various parts of our infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet, ITRS OP5 Monitor, Cacti, Various CA technologies products, etc. As previously mentioned, my job often consisted of setting up, configuring, re-configuring, purging servers, so scripting is quite essential. I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,</p></p>
+            </div>
+            <ul class="highlights ul-margin">
+    	            <li><p>Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)</p></li>
+    	            <li><p>File shares (NFSv3, NFSv4 + Kerberos, automount)</p></li>
+    	            <li><p>Wireless 802.1x (Certificate enrolment through SCEP)</p></li>
+    	            <li><p>Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section section-volunteer">
+      <header>
+        <i class="fas fa-hands-helping"></i>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="volunteer-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Linux System Administrator
+              </div>
+              <div class="organization">
+                SIDA
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              October 2013
+              </span>
+              <span class="endDate">
+              - November 2013
+              </span>
+            </div>
+          </header>
+          <ul class="keywords">
+            <li>request tracker</li>
+            <li>mediawiki</li>
+            <li>virtualization</li>
+          </ul>
+          <div class="item">
+            <div class="summary">
+              <p><p>On behalf of the SIDA-organisation I've been visiting the “Department of Meteorological Services” in Botswana two times. My workthere has mostly consisted of deploying Linux Servers and setting up a “Request Tracker” - system and a wiki. The Biggest challenges with these missions has been the lack of infrastructure, internet access and the fact that everything has to be done while being there, no remote work has been possible.</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section section-education">
+      <header>
+        <i class="fas fa-graduation-cap"></i>
+        <h2 class='section-title title-education'>Education </h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="area">
+                Separate Courses
+              </div>
+              <div class="institution">
+                Umeå University, Linné University
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2009
+              </span>
+              <span class="endDate">
+              - 2010
+              </span>
+            </div>
+          </header>
+    
+    
+    
+    
+    
+            <ul class="education-course ul-margin">
+                <li><p>Linux as a developing platform</p>
+    
+    
+          	      <span>c</span>
+          	      <span>gcc</span>
+          	      <span>make</span>
+          	      <span>shell</span>
+    
+                </li>
+    
+                <li><p>Structured Programming with C++</p>
+    
+    
+          	      <span>object oriented c++</span>
+          	      <span>classes</span>
+          	      <span>boost</span>
+    
+                </li>
+    
+                </ul>
+    
+    
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="area">
+                Linux System administration
+              </div>
+              <div class="institution">
+                Jensen Education
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2007
+              </span>
+              <span class="endDate">
+              - 2009
+              </span>
+            </div>
+          </header>
+    
+    
+    
+    
+    
+            <ul class="education-course ul-margin">
+                <li><p>Database Administration</p>
+    
+    
+          	      <span>SQL</span>
+          	      <span>relational database theory</span>
+          	      <span>database modelling</span>
+          	      <span>normalization</span>
+          	      <span>troubleshooting</span>
+    
+                </li>
+    
+                <li><p>Network and computer communicationn</p>
+    
+    
+          	      <span>inetd</span>
+          	      <span>xinetd</span>
+          	      <span>postfix</span>
+          	      <span>bind</span>
+          	      <span>apache</span>
+          	      <span>nfs</span>
+          	      <span>ldap</span>
+    
+                </li>
+    
+                <li><p>The Operating System Linux</p>
+    
+    
+          	      <span>gnu tools</span>
+          	      <span>file system</span>
+          	      <span>file permissions</span>
+          	      <span>pipes</span>
+          	      <span>regular expressions</span>
+    
+                </li>
+    
+                <li><p>Programming in Linux</p>
+    
+    
+          	      <span>Compiling</span>
+          	      <span>shell scripting</span>
+          	      <span>perl</span>
+          	      <span>python</span>
+          	      <span>bash</span>
+          	      <span>monitoring</span>
+    
+                </li>
+    
+                <li><p>System Administration Linux</p>
+    
+    
+          	      <span>user management</span>
+          	      <span>logging</span>
+          	      <span>backup</span>
+          	      <span>kernel modules</span>
+          	      <span>virtualization</span>
+          	      <span>storage solution</span>
+    
+                </li>
+    
+                <li><p>Web server administration</p>
+    
+    
+          	      <span>virtual hosts</span>
+          	      <span>server side includes</span>
+          	      <span>cgi-scripts</span>
+          	      <span>ssl</span>
+          	      <span>logging</span>
+    
+                </li>
+    
+                </ul>
+    
+    
+        </section>
+      </section>
+    </section>
+
+  </body>
+</html>
