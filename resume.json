@@ -46,13 +46,14 @@
       "keywords": [
         "red hat",
         "bash",
-        "gnu tools",
-        "rpm packaging",
         "docker",
         "podman",
-        "kerberos",
+        "gnu tools",
         "nginx",
-        "apache"
+        "apache",
+        "kerberos",
+        "systemd",
+        "rpm packaging"
       ]
     },
     {
@@ -61,23 +62,24 @@
       "keywords": [
         "jenkins",
         "gitlab ci",
-        "bitbucket",
-        "pipelines",
         "maven",
         "nexus",
+        "bitbucket",
+        "pipelines",
         "buildconfigs",
         "deploymentconfigs"
       ]
     },
     {
       "name": "Cloud",
-      "level": "Advanced",
+      "level": "Master",
       "keywords": [
         "openshift",
         "openstack",
         "ceph",
-        "red hat director",
-        "terraform"
+        "terraform",
+        "aws",
+        "red hat director"
       ]
     },
     {
@@ -106,7 +108,7 @@
         "op5 monitor",
         "ldap",
         "active directory",
-        "sso"
+        "single sign on"
       ]
     },
     {
