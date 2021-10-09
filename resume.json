@@ -76,7 +76,7 @@
       ]
     },
     {
-      "name": "Moln",
+      "name": "Cloud",
       "level": "Mästare",
       "keywords": [
         "openshift",
@@ -155,19 +155,19 @@
     },
     {
       "company": "RedLin PM AB",
-      "position": "Linux System Administrator and Founder",
+      "position": "Linux Systemadministratör och Grundare",
       "website": "https://www.redlin.se",
       "startDate": "",
       "endDate": "2020-05-01",
       "keywords": [
         "red hat",
-        "consulting",
-        "linux system administrator",
+        "konsult",
+        "linux systemadministratör",
         "automation",
-        "standardize",
-        "development"
+        "standardisering",
+        "utveckling"
       ],
-      "summary": "RedLin is created and owned by Patrik Martinsson who has been in love with Red Hat for over a decade. We help our customers to automate, standardize and develop their infrastructure with the help of Linux and Red Hat products. At RedLin we can take on roles such as,",
+      "summary": "Företaget RedLin är skapat och ägs av Patrik Martinsson som haft en förkärlek till Red Hat i över tio år. Vi hjälper våra kunder med att bygga, automatisera samt standardisera infrastruktur, detta med hjälp av Linux och Red Hat produkter. På RedLin kan vi ta oss an roller, så som,",
       "highlights": [
         {
           "indentclass": "",
@@ -175,18 +175,18 @@
         },
         {
           "indentclass": "",
-          "detail": "Linux System Adminstrator"
+          "detail": "Linux Systemadminstratör"
         },
         {
           "indentclass": "",
           "detail": "DevOps Engineer"
         }
       ],
-      "summary_continue": "At RedLin we are used to tools such as Ansible and Puppet for automation and consistency. We also recognize the importance of having continuous deployment pipelines in place, not only for things like products and container images, but also for other parts of the infrastructure. Together with you, we want to build an fully automated, daily patched, high availability infrastructure.\n\nWe simply provide expertise and tailored solutions primarily built on Linux and Red Hat products."
+      "summary_continue": "På RedLin använder vi verktyg så som Ansible och Puppet för automation och garantera konsistens. Vi arbetar också med 'continous deployment' och 'pipelines', inte bara för produkter och containers, utan även för hela infrastrukturen. Målet är att tillsammans med kunden bygga en helautomatiserad infrastruktur som kontinuerligt är säkerhetspatchad och högtillgänglig. \n\nVi tillhandahåller helt enkelt skräddarsydda lösningar, byggda efter kundens behov på Linux och Red Hat produkter."
     },
     {
       "company": "TriOptima",
-      "position": "Linux System Administrator",
+      "position": "Linux Systemadministratör",
       "website": "https://www.trioptima.com",
       "startDate": "2016-04-01",
       "endDate": "2019-11-22",
@@ -199,11 +199,11 @@
         "terraform",
         "kerberos"
       ],
-      "summary": "My main responsibilities at TriOptima has been the installation, configuration and design of their Openstack and Ceph platform. The setup spans over three data centers and is based on Red Hat Openstack Platform 13 and Red Hat Ceph Storage 3. The design includes everything from different availability zones, storage pools (both local and stretched between multiple data centers), and involves roughly 50 nodes. The deployment of OpenStack is done through the Red Hat Director, while Ceph is being deployed using the Ceph Ansible Playbook. We have chosen this configuration to get an environment that scales and fulfills our internal customers requirements. \n During the implementation I’ve encountered quite a few bugs in various components (neutron, octavia, heat-templates, networkmanager) which have actively been reported upstream (also monkey patched a few things locally to work around numerous deployment issues).\n On top of that I’ve also built our own internal portal where the users can create, delete and manage access to their projects. Authentication to the portal, and to the cloud, is done via Kerberos (Active Directory) and supports Single Sign On. "
+      "summary": "Mina huvudsakliga uppgifter på TriOptima har varit att installera, konfigurera, samt drifta deras moln och lagringsplattofrm byggd på OpenStack och Ceph. Installationen sträcker sig över tre datacenter och består av Red Hat OpenStack 13 samt Red Hat Ceph Storage. Designen inkluderar allt ifrån olika tillgänglighets zoner, lagringspooler (både lokala per datacenter, men även sträckta över flera datacenter), och inkluderar som helhet ca 50 noder. Installationen av OpenStack är gjort mha. egenbyggda templates och Red Hat Director, medan Ceph är installerad mha. Ceph Ansible Playbook. Vi har valt den här konfigurationen för att kunna erbjuda en skalbar helhetslösning som motsvarar våra interna kunders behov och krav. \n\nUnder resans gång upptäcktes en hel del buggar i olika komponenter (neutron, octavia, heat-templates, networkmanager), dessa har rapporterats upstream, men jag har även varit tvungen att patcha en hel del saker lokalt. \n\nUtöver det tog jag även fram en intern serviceportal där användare själva kan hantera access till sina OpenStack projekt. Autentisering till portalen samt OpenStack sker via Kerberos (Active Directory) och supporterar SSO."
     },
     {
       "company": "SMHI",
-      "position": "Linux System Administrator",
+      "position": "Linux Systemadministratör",
       "website": "https://www.smhi.se",
       "startDate": "2008-05-16",
       "endDate": "2016-01-22",
@@ -217,23 +217,23 @@
         "infoblox",
         "nfs"
       ],
-      "summary": "My 'day-to-day'-tasks consisted of managing ~ 1000 Red Hat Enterprise Servers and ~ 150 Red Hat Enterprise Clients. Usually it involves making sure everything is up running and that the setups are consistent. This is essentially done by Puppet, Ansible and various automation-scripts (preferable in bash, perl or python). I've done a lot of scripting to various parts of our infrastructure, this includes Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet, ITRS OP5 Monitor, Cacti, Various CA technologies products, etc. As previously mentioned, my job often consisted of setting up, configuring, re-configuring, purging servers, so scripting is quite essential. I've been a key-player in SMHI's attempt to standardize their Linux Platforms (both for Servers and Clients). The goal was to make sure that every Linux Server and Client would be centrally managed and properly configured to SMHI's infrastructure and policies, that includes,",
+      "summary": "Mitt dagliga arbete på SMHI har mestadels bestått i att installera, konfigurera samt drifta ~ 1000 Red Hat Enterprise Linux servrar, samt 150 Red Had Enterprise Linux klienter. Infrastrukturen är i huvudsak uppsatt mha. Puppet, Ansible samt diverse automations-skript. Jag har under åren skrivit en hel del skript och automatiserat mot många olika delar av infrastrukturen, detta inkluderar bla. Cisco UCS, VMware, Infoblox, HP iLO, Foreman, Puppet, ITRS OP5 Monitor, Cacti, CA technologies, etc, och har gjorts mha. språk som Bash, Perl och Python. \n\nJag har varit en nyckelspelare i SMHI's satsning för en standardiserad Linux infrastruktur, både för servrar samt klienter. Målet har varit, att med automation samt en centraliserad managering, integrera alla Linux servrar samt klienter i befintlig SMHI infrastruktur, detta inkluderar",
       "highlights": [
         {
           "indentclass": "",
-          "detail": "Authentication (Active Directory, Kerberos, Smart Card, PKCS11, Cisco Anyconnect)"
+          "detail": "Autentisering (Active Directory, Kerberos, Smart kort, PKCS11, Cisco Anyconnect)"
         },
         {
           "indentclass": "",
-          "detail": "File shares (NFSv3, NFSv4 + Kerberos, automount)"
+          "detail": "Filservrar (NFSv3, NFSv4 + Kerberos, automount)"
         },
         {
           "indentclass": "",
-          "detail": "Wireless 802.1x (Certificate enrolment through SCEP)"
+          "detail": "Trådlös anslutning via 802.1x (Certifikat's utrullning via SCEP)"
         },
         {
           "indentclass": "",
-          "detail": "Fully automated installations and configurations for both Servers and Clients (available for customers through self-service-portals)"
+          "detail": "Helt automatiserade installationer och konfigureringar för både servrar samt klienter (allt utifrån en gör-det-själv-service-portal)"
         }
       ]
     }
