@@ -3,15 +3,16 @@ This is a modified version of the [jsonresume-theme-stackoverflow](https://githu
 
 ## Getting started
 
-### Install resumecli and build jsonresume-theme-stackoverflow-pdf,  
+### Install resume-cli and build jsonresume-theme-stackoverflow-themed pdf,  
 ```
 $ > cd ~/
 $ > npm install resume-cli
 $ > cd node_modules
 $ > git clone git@github.com:patchon/resume.git
+$ > mv resume jsonresume-theme-stackoverflow
 
 # Set correct format and margins to fit my CV, 
-$ > vim ~/node_modules/resume-cli/lib/export-resume/index.js (~:107)
+$ > vim node_modules/resume-cli/build/export-resume.js (~:126)
 
 await page.pdf({
       path: fileName + format,
