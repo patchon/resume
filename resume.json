@@ -14,7 +14,7 @@
       "postalCode": "",
       "city": "Norrköping | Distans",
       "countryCode": "",
-      "region": "Sweden"
+      "region": "Sverige"
     },
     "profiles": [
       {
@@ -241,10 +241,10 @@
   "volunteer": [
     {
       "organization": "SIDA",
-      "position": "Linux System Administrator",
+      "position": "Linux Systemadministratör",
       "startDate": "2013-10-13",
       "endDate": "2013-11-01",
-      "summary": "On behalf of the SIDA-organisation I've been visiting the “Department of Meteorological Services” in Botswana two times. My workthere has mostly consisted of deploying Linux Servers and setting up a “Request Tracker” - system and a wiki. The Biggest challenges with these missions has been the lack of infrastructure, internet access and the fact that everything has to be done while being there, no remote work has been possible.",
+      "summary": "I samarbete med SIDA organisationen har jag vid två tillfällen besökt “Department of Meteorological Services” i Botswana. Mitt arbete här har huvudsak bestått av att bistå befintlig personal med installation av Linux servrar. Jag har även installerat och satt upp ett ärendehanterings-system (“Request Tracker”), samt en wiki och lite monitoreringssystem. Största utmaningarna vid dessa uppdrag har var bristen på infrastruktur samt avsaknaden av internet.",
       "keywords": [
         "request tracker",
         "mediawiki",
@@ -254,8 +254,8 @@
   ],
   "education": [
     {
-      "institution": "Umeå University, Linné University",
-      "area": "Separate Courses",
+      "institution": "Umeå University, Linné universitet",
+      "area": "Separata kurser",
       "startDate": "2009-01-01",
       "endDate": "2010-01-01",
       "courses": [
@@ -280,12 +280,12 @@
     },
     {
       "institution": "Jensen Education",
-      "area": "Linux System administration",
+      "area": "Linux Systemadministration",
       "startDate": "2007-01-01",
       "endDate": "2009-01-01",
       "courses": [
         {
-          "name": "Database Administration",
+          "name": "Databasadministration",
           "keywords": [
             "SQL",
             "relational database theory",
@@ -295,7 +295,7 @@
           ]
         },
         {
-          "name": "Network and computer communicationn",
+          "name": "Nätverk och datorkommunikation",
           "keywords": [
             "inetd",
             "xinetd",
@@ -307,7 +307,7 @@
           ]
         },
         {
-          "name": "The Operating System Linux",
+          "name": "Operativsystemet Linux",
           "keywords": [
             "gnu tools",
             "file system",
@@ -317,7 +317,7 @@
           ]
         },
         {
-          "name": "Programming in Linux",
+          "name": "Programmering i Linux",
           "keywords": [
             "Compiling",
             "shell scripting",
@@ -328,7 +328,7 @@
           ]
         },
         {
-          "name": "System Administration Linux",
+          "name": "Systemadministration Linux",
           "keywords": [
             "user management",
             "logging",
@@ -339,7 +339,7 @@
           ]
         },
         {
-          "name": "Web server administration",
+          "name": "Administration av webservrar",
           "keywords": [
             "virtual hosts",
             "server side includes",

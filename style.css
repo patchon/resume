@@ -1,6 +1,6 @@
 /********************************************
-* 	reset from
-* 	http://meyerweb.com/eric/tools/css/reset/
+*   reset from
+*   http://meyerweb.com/eric/tools/css/reset/
 *******************************************/
 
 html,
@@ -133,7 +133,7 @@ table {
 
 
 /****************
-*	COMMONS
+*  COMMONS
 ****************/
 
 body,
@@ -572,7 +572,7 @@ ul.courses li:hover {
 }
 
 /******************
-*	HELPER CLASSES
+*  HELPER CLASSES
 ******************/
 
 .clear::after {
@@ -594,9 +594,12 @@ ul.courses li:hover {
     letter-spacing: 1.2px;
 }
 
+.date{
+  text-transform: capitalize;
+}
 
 /****************
-*		TABLET
+*    TABLET
 ****************/
 
 @media screen and (min-width: 602px) {
@@ -608,7 +611,7 @@ ul.courses li:hover {
 
 
 /****************
-*		LAPTOP
+*    LAPTOP
 ****************/
 
 @media screen and (min-width: 1025px) {
