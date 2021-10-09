@@ -549,13 +549,13 @@ ul.courses li:hover {
     width: 5em;
 }
 
-.level.advanced .bar::after,
+.level.avancerad .bar::after,
 .level.fluent .bar::after {
     background: #5CB85C;
     width: 7.5em;
 }
 
-.level.master .bar::after,
+.level.mästare .bar::after,
 .level.native.speaker .bar::after {
     background: #59C596;
     width: 10em;

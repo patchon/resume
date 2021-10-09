@@ -7,12 +7,12 @@
     "phone": "(+46) 707 27 64 96",
     "website": "www.redlin.se",
     "website_img": "https://www.redlin.se/images/logo-no-text-no-borders.svg",
-    "summary": "My name is Patrik Martinsson and I'm a Linux System Administrator from Stockholm, Sweden. I'm a Linux-enthusiast, active in the community with various bug reports, patches, discussions, etc. I'm always eager to learn new things and can adapt very quickly to various kinds of situations. I’m running my own company called <a href='https://www.redlin.se'>RedLin</a>, specializing on Red Hat products.",
-    "languages": "Swedish | English",
+    "summary": "Jag heter Patrik Martinsson och arbetar som Linux Systemadministratör. Jag är en Linux entusiast som är aktiv i olika open source-projekt, mestadels via olika buggrapporter, patchar, diskussioner etc. Jag strävar alltid efter att lära mig nya saker och anpassar mig snabbt till olika situationer. Jag driver även mitt egna företag <a href='https://www.redlin.se'>RedLin</a>, där vi specialiserar oss på Red Hat produkter.",
+    "languages": "Svenska | Engelska",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Norrköping | Remote",
+      "city": "Norrköping | Distans",
       "countryCode": "",
       "region": "Sweden"
     },
@@ -42,7 +42,7 @@
   "skills": [
     {
       "name": "Linux",
-      "level": "Master",
+      "level": "Mästare",
       "keywords": [
         "containers",
         "red hat",
@@ -60,7 +60,7 @@
     },
     {
       "name": "DevOps CI / CD",
-      "level": "Advanced",
+      "level": "Avancerad",
       "keywords": [
         "argocd",
         "tekton",
@@ -76,8 +76,8 @@
       ]
     },
     {
-      "name": "Cloud",
-      "level": "Master",
+      "name": "Moln",
+      "level": "Mästare",
       "keywords": [
         "openshift",
         "kubernetes",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Automation",
-      "level": "Master",
+      "level": "Mästare",
       "keywords": [
         "ansible",
         "puppet",
@@ -104,7 +104,7 @@
     },
     {
       "name": "API / Integration",
-      "level": "Master",
+      "level": "Mästare",
       "keywords": [
         "vmware vsphere",
         "openshift",
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "name": "Programming",
-      "level": "Advanced",
+      "name": "Programmering",
+      "level": "Avancerad",
       "keywords": [
         "perl",
         "python",
@@ -136,7 +136,7 @@
   "topic_count": false,
   "work": [
     {
-      "company": "The Swedish Employment Office",
+      "company": "Arbetsförmedlingen",
       "position": "OpenShift Specialist / DevOps Engineer",
       "website": "https://www.arbetsformedlingen.se",
       "startDate": "2020-08-01",
@@ -150,8 +150,8 @@
         "devops",
         "infrastructure as code"
       ],
-      "summary": "My main responsibilites at The Swedish Employment Office has been to design, configure and install their new cloud container platform which is based on OpenShift 4.6. Ceph is used as the underlying storage and the Cisco ACI-CNI plugin for the network integration. I've put a lot of effort into self service and integrations to other parts of their infrastructure, such as Oauth2 authentication and project management through Servicenow. The cluster is installed on Cisco UCS hardware and spread over multiple datacenters for high availability. ",
-      "summary_continue": "I've also spend quite some time with development teams, helping them containerizing their appliactions. Applications has mostly been written in Java (Spring Boot / JBoss EAP), Angular, Python, NodeJS, etc. On top of that I've also been working with development teams helping them creating pipelines in Jenkins (Groovy) and automating their process for releasing new code.  \n On top of that I've also built and setup quite a few applications to demonstrate the power of a container platform, this includes applications such as PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, etc."
+      "summary": "På arbetsförmedlingen har mina huvudsakliga arbetsuppgifter bestått i att designa, konfigurera samt installera deras nya molnmiljö baserad på OpenShift 4.6. Underliggande storage är byggd på Ceph och nätverksintegrationen är gjord med hjälp av Cisco's ACI-CNI plugin. Jag har lagt mycket fokus på självadministration där Oauth2 används för autentisering samt Servicenow för projekthantering. Klustret är installerat på Cisco UCS hårdvara som i sin tur är spridd över flera datacenter för att uppnå högtillgänglighet.",
+      "summary_continue": "Jag har även hjälpt olika utvecklingsteam att containerisera deras applikationer, detta i form av Java (Spring Boot / Jboss EAP), Angular, Python, NodeJS, etc. Utöver det har jag även tagit fram pipelines i Jenkins (Groovy) åt olika team för att underlätta processen vid driftsättning av ny kod. \n\n Jag har också arbetat med att installera olika produkter för att demonstrera fördelarna med en molnmiljö, exempel på applikationer är PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, osv."
     },
     {
       "company": "RedLin PM AB",
