@@ -35,7 +35,7 @@
   "bundleDependencies": false,
   "dependencies": {
     "handlebars": "^4.0.10",
-    "moment": "^2.18.1"
+    "moment": "^2.29.1"
   },
   "deprecated": false,
   "description": "Stack Overflow theme for JSON Resume",
