@@ -17,14 +17,14 @@
         <label for="education-item-{{@index}}"></label>
       {{/if}}
       <header>
-        <div class="header-left">
+        <div class="header-left" style="font-weight:500">
           {{#if studyType}}
           <div class="studyType">
             {{studyType}}
           </div>
           {{/if}}
           {{#if area}}
-          <div class="area">
+          <div class="area" style="font-weight:500">
             {{area}}
           </div>
           {{/if}}
@@ -34,7 +34,7 @@
           </div>
           {{/if}}
         </div>
-        <div class="date">
+        <div class="date" style="font-weight:500">
           {{#if startDate}}
           <span class="startDate">
           {{Y startDate}}
