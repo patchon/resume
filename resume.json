@@ -12,7 +12,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Stockholm",
+      "city": "Norrköping | Remote",
       "countryCode": "",
       "region": "Sweden"
     },
@@ -34,8 +34,8 @@
       },
       {
         "network": "redhat",
-        "username": "redhat certified engineer",
-        "url": "https://rhtapps.redhat.com/certifications/badge/verify/6JKMSGM44ZMQPIIRFKGLJELAZIAEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ="
+        "username": "Red Hat Certified Engineer | Ceph",
+        "url": "https://rhtapps.redhat.com/verify/?certId=170-249-643"
       }
     ]
   },
@@ -44,28 +44,33 @@
       "name": "Linux",
       "level": "Master",
       "keywords": [
+        "containers",
         "red hat",
         "bash",
         "docker",
         "podman",
-        "gnu tools",
+        "grafana",
+        "prometheus",
         "nginx",
         "apache",
         "kerberos",
-        "systemd",
-        "rpm packaging"
+        "rpm",
+        "systemd"
       ]
     },
     {
       "name": "DevOps CI / CD",
       "level": "Advanced",
       "keywords": [
-        "jenkins",
+        "argocd",
+        "tekton",
+        "helm",
         "gitlab ci",
-        "maven",
-        "nexus",
         "bitbucket",
         "pipelines",
+        "jenkins",
+        "maven",
+        "nexus",
         "buildconfigs",
         "deploymentconfigs"
       ]
@@ -75,11 +80,13 @@
       "level": "Master",
       "keywords": [
         "openshift",
+        "kubernetes",
         "openstack",
         "ceph",
         "terraform",
         "aws",
-        "red hat director"
+        "red hat director",
+        "objectstorage s3 / swift"
       ]
     },
     {
@@ -100,13 +107,14 @@
       "level": "Master",
       "keywords": [
         "vmware vsphere",
-        "openstack",
+        "openshift",
         "jira",
         "servicenow",
         "infoblox",
         "cisco ucs",
         "op5 monitor",
         "ldap",
+        "checkmk",
         "active directory",
         "single sign on"
       ]
@@ -128,11 +136,29 @@
   "topic_count": false,
   "work": [
     {
+      "company": "The Swedish Employment Office",
+      "position": "OpenShift Specialist / DevOps Engineer",
+      "website": "https://www.arbetsformedlingen.se",
+      "startDate": "2020-08-01",
+      "endDate": "",
+      "keywords": [
+        "openshift",
+        "kubernetes",
+        "cloud",
+        "argocd",
+        "containers",
+        "devops",
+        "infrastructure as code"
+      ],
+      "summary": "My main responsibilites at The Swedish Employment Office has been to design, configure and install their new cloud container platform which is based on OpenShift 4.6. Ceph is used as the underlying storage and the Cisco ACI-CNI plugin for the network integration. I've put a lot of effort into self service and integrations to other parts of their infrastructure, such as Oauth2 authentication and project management through Servicenow. The cluster is installed on Cisco UCS hardware and spread over multiple datacenters for high availability. ",
+      "summary_continue": "I've also spend quite some time with development teams, helping them containerizing their appliactions. Applications has mostly been written in Java (Spring Boot / JBoss EAP), Angular, Python, NodeJS, etc. On top of that I've also been working with development teams helping them creating pipelines in Jenkins (Groovy) and automating their process for releasing new code.  \n On top of that I've also built and setup quite a few applications to demonstrate the power of a container platform, this includes applications such as PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, etc."
+    },
+    {
       "company": "RedLin PM AB",
       "position": "Linux System Administrator and Founder",
       "website": "https://www.redlin.se",
-      "startDate": "2020-05-01",
-      "endDate": "",
+      "startDate": "",
+      "endDate": "2020-05-01",
       "keywords": [
         "red hat",
         "consulting",

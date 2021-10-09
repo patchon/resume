@@ -258,6 +258,7 @@ section .location {
     font-size: 2.8rem;
     font-weight: 100;
     line-height: 100%;
+    letter-spacing: 1.2px;
 }
 
 #header h2.label {
@@ -335,6 +336,10 @@ h2.section-title {
     line-height: 1;
     opacity: 0;
 }
+    .location{
+      font-size: 12px;
+      color: #868686;
+    }
 
 .position,
 .company,
@@ -586,6 +591,7 @@ ul.courses li:hover {
     font-size: 1.47rem;
     font-weight: 300;
     line-height: 1.5;
+    letter-spacing: 1.2px;
 }
 
 
@@ -705,6 +711,8 @@ ul.courses li:hover {
     .section .location {
         padding-bottom: .15rem;
     }
+
+
     .stack-overflow::after {
         content: "";
     }
@@ -935,8 +943,18 @@ ul.courses li{
 }
 
 #work > section:nth-child(2){
-  margin-top: 3rem;
-  padding-top: 3rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#work > section:nth-child(3){
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+#work > section:nth-child(4){
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 #work-item{
@@ -994,6 +1012,10 @@ ul.education-course li span {
 /*
  * Volunteer
 */
+
+.section-volunteer {
+  padding-top: 100px;
+}
 
 #volunteer > section > div{
   padding-top: 0px;
