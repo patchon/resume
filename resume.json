@@ -136,29 +136,11 @@
   "topic_count": false,
   "work": [
     {
-      "company": "Arbetsförmedlingen",
-      "position": "OpenShift Specialist / DevOps Engineer",
-      "website": "https://www.arbetsformedlingen.se",
-      "startDate": "2020-08-01",
-      "endDate": "",
-      "keywords": [
-        "openshift",
-        "kubernetes",
-        "cloud",
-        "argocd",
-        "containers",
-        "devops",
-        "infrastructure as code"
-      ],
-      "summary": "På arbetsförmedlingen har mina huvudsakliga arbetsuppgifter bestått i att designa, konfigurera samt installera deras nya molnmiljö baserad på OpenShift 4.6. Underliggande storage är byggd på Ceph och nätverksintegrationen är gjord med hjälp av Cisco's ACI-CNI plugin. Jag har lagt mycket fokus på självadministration där Oauth2 används för autentisering samt Servicenow för projekthantering. Klustret är installerat på Cisco UCS hårdvara som i sin tur är spridd över flera datacenter för att uppnå högtillgänglighet.",
-      "summary_continue": "Jag har även hjälpt olika utvecklingsteam att containerisera deras applikationer, detta i form av Java (Spring Boot / Jboss EAP), Angular, Python, NodeJS, etc. Utöver det har jag även tagit fram pipelines i Jenkins (Groovy) åt olika team för att underlätta processen vid driftsättning av ny kod. \n\n Jag har också arbetat med att installera olika produkter för att demonstrera fördelarna med en molnmiljö, exempel på applikationer är PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, osv."
-    },
-    {
       "company": "RedLin PM AB",
       "position": "Linux Systemadministratör och Grundare",
       "website": "https://www.redlin.se",
-      "startDate": "",
-      "endDate": "2020-05-01",
+      "startDate": "2022-01-10",
+      "endDate": "",
       "keywords": [
         "red hat",
         "konsult",
@@ -183,6 +165,24 @@
         }
       ],
       "summary_continue": "På RedLin använder vi verktyg så som Ansible och Puppet för automation och garantera konsistens. Vi arbetar också med 'continous deployment' och 'pipelines', inte bara för produkter och containers, utan även för hela infrastrukturen. Målet är att tillsammans med kunden bygga en helautomatiserad infrastruktur som kontinuerligt är säkerhetspatchad och högtillgänglig. \n\nVi tillhandahåller helt enkelt skräddarsydda lösningar, byggda efter kundens behov på Linux och Red Hat produkter."
+    },
+    {
+      "company": "Arbetsförmedlingen",
+      "position": "OpenShift Specialist / DevOps Engineer",
+      "website": "https://www.arbetsformedlingen.se",
+      "startDate": "2020-08-01",
+      "endDate": "2021-12-19",
+      "keywords": [
+        "openshift",
+        "kubernetes",
+        "cloud",
+        "argocd",
+        "containers",
+        "devops",
+        "infrastructure as code"
+      ],
+      "summary": "På arbetsförmedlingen har mina huvudsakliga arbetsuppgifter bestått i att designa, konfigurera samt installera deras nya molnmiljö baserad på OpenShift 4.6. Underliggande storage är byggd på Ceph och nätverksintegrationen är gjord med hjälp av Cisco's ACI-CNI plugin. Jag har lagt mycket fokus på självadministration där Oauth2 används för autentisering samt Servicenow för projekthantering. Klustret är installerat på Cisco UCS hårdvara som i sin tur är spridd över flera datacenter för att uppnå högtillgänglighet.",
+      "summary_continue": "Jag har även hjälpt olika utvecklingsteam att containerisera deras applikationer, detta i form av Java (Spring Boot / Jboss EAP), Angular, Python, NodeJS, etc. Utöver det har jag även tagit fram pipelines i Jenkins (Groovy) åt olika team för att underlätta processen vid driftsättning av ny kod. \n\n Jag har också arbetat med att installera olika produkter för att demonstrera fördelarna med en molnmiljö, exempel på applikationer är PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, osv."
     },
     {
       "company": "TriOptima",
