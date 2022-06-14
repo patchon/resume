@@ -28,7 +28,7 @@ await page.pdf({
 
 # Create pdf,
 $ > cd ~/node_modules/jsonresume-theme-stackoverflow
-$ > ~/node_modules/.bin/resume export --format pdf --theme stackoverflow mycv.pdf
+$ > ~/node_modules/.bin/resume export --format pdf --theme . mycv.pdf
 
 ```
 ## License
