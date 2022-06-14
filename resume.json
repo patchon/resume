@@ -136,29 +136,11 @@
   "topic_count": false,
   "work": [
     {
-      "company": "The Swedish Employment Office",
-      "position": "OpenShift Specialist / DevOps Engineer",
-      "website": "https://www.arbetsformedlingen.se",
-      "startDate": "2020-08-01",
-      "endDate": "",
-      "keywords": [
-        "openshift",
-        "kubernetes",
-        "cloud",
-        "argocd",
-        "containers",
-        "devops",
-        "infrastructure as code"
-      ],
-      "summary": "My main responsibilites at The Swedish Employment Office has been to design, configure and install their new cloud container platform which is based on OpenShift 4.6. Ceph is used as the underlying storage and the Cisco ACI-CNI plugin for the network integration. I've put a lot of effort into self service and integrations to other parts of their infrastructure, such as Oauth2 authentication and project management through Servicenow. The cluster is installed on Cisco UCS hardware and spread over multiple datacenters for high availability. ",
-      "summary_continue": "I've also spend quite some time with development teams, helping them containerizing their applications. These applications has mostly been written in Java (Spring Boot / JBoss EAP), Angular, Python, NodeJS, etc. On top of that I've also been working with development teams helping them creating pipelines in Jenkins (Groovy) and automating their process for releasing new code.  \n In addition to that, I've also setup quite a few applications to demonstrate the power of a container platform, this includes applications such as PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, etc."
-    },
-    {
       "company": "RedLin PM AB",
       "position": "Linux System Administrator and Founder",
       "website": "https://www.redlin.se",
-      "startDate": "",
-      "endDate": "2020-05-01",
+      "startDate": "2022-01-10",
+      "endDate": "",
       "keywords": [
         "red hat",
         "consulting",
@@ -183,6 +165,24 @@
         }
       ],
       "summary_continue": "At RedLin we are used to tools such as Ansible and Puppet for automation and consistency. We also recognize the importance of having continuous deployment pipelines in place, not only for things like products and container images, but also for other parts of the infrastructure. Together with you, we want to build an fully automated, daily patched, high availability infrastructure.\n\nWe simply provide expertise and tailored solutions primarily built on Linux and Red Hat products."
+    },
+    {
+      "company": "The Swedish Employment Office",
+      "position": "OpenShift Specialist / DevOps Engineer",
+      "website": "https://www.arbetsformedlingen.se",
+      "startDate": "2020-08-01",
+      "endDate": "2021-12-19",
+      "keywords": [
+        "openshift",
+        "kubernetes",
+        "cloud",
+        "argocd",
+        "containers",
+        "devops",
+        "infrastructure as code"
+      ],
+      "summary": "My main responsibilites at The Swedish Employment Office has been to design, configure and install their new cloud container platform which is based on OpenShift 4.6. Ceph is used as the underlying storage and the Cisco ACI-CNI plugin for the network integration. I've put a lot of effort into self service and integrations to other parts of their infrastructure, such as Oauth2 authentication and project management through Servicenow. The cluster is installed on Cisco UCS hardware and spread over multiple datacenters for high availability. ",
+      "summary_continue": "I've also spend quite some time with development teams, helping them containerizing their applications. These applications has mostly been written in Java (Spring Boot / JBoss EAP), Angular, Python, NodeJS, etc. On top of that I've also been working with development teams helping them creating pipelines in Jenkins (Groovy) and automating their process for releasing new code.  \n In addition to that, I've also setup quite a few applications to demonstrate the power of a container platform, this includes applications such as PostgreSQL, MongoDB, Jira, Mattermost, Rocketchat, Element Matrix, Pastebins, etc."
     },
     {
       "company": "TriOptima",
