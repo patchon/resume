@@ -71,8 +71,8 @@
         "jenkins",
         "maven",
         "nexus",
-        "buildconfigs",
-        "deploymentconfigs"
+        "artifactory",
+        "github actions"
       ]
     },
     {
@@ -81,11 +81,13 @@
       "keywords": [
         "openshift",
         "kubernetes",
+        "vault",
         "openstack",
         "ceph",
         "terraform",
         "aws",
-        "red hat director",
+        "kong",
+        "keycloak",
         "object storage s3 / swift"
       ]
     },
@@ -134,6 +136,48 @@
     }
   ],
   "topic_count": false,
+  "assignments": [
+    {
+      "company": "Karolinska University Hospital",
+      "position": "Karolinska University Hospital",
+      "website": "https://www.karolinska.se",
+      "startDate": "2022-11-01",
+      "endDate": "",
+      "keywords": [
+        "consulting",
+        "openshift",
+        "terraform",
+        "helm",
+        "argocd",
+        "vault",
+        "kong",
+        "github acitons",
+        "keycloak",
+        "openshift",
+        "vmware"
+      ],
+      "summary": "",
+      "summary_continue": "At the Karolinska University Hospital I'm a part of their DevOps team helping them to build their new internal cloud solution based on OpenShift. This work consists both of building the actual infrastructure it self, but also setting up and configuring all the components that will be in the platform. I've been a key player in designing and installing this new infrastructure, which includes both networking and storage. I've also helped with improving and securing their current OpenShift clusters, as well as upgrading them and making them more stable. \n\n I'm currently working with the team helping them installing and configuring components such as, Vault, Kong, ArgoCD, GitHub Actions, cert-manager, external-secrets, Confluent, PostgreSQL among others. Everything we do is infrastructure as code to secure version control and ease the deployments.\n\n On top of that I've also worked quite a lot with their VMware enviroment, HPE Synergy Frames, as well as Citrix ADC, automating various tasks with tools such as Terraform."
+    },
+    {
+      "company": "Bonnier News",
+      "position": "Cloud Engineer",
+      "website": "https://www.bonniernews.se",
+      "startDate": "2022-01-10",
+      "endDate": "2022-10-25",
+      "keywords": [
+        "consulting",
+        "aws",
+        "gcp",
+        "cloudrun",
+        "kafka",
+        "terraform",
+        "openshift"
+      ],
+      "summary": "",
+      "summary_continue": "My assignment at Bonnier News mostly consisted of helping developer teams migrating their current workload from OpenShift to Google Cloud. This included techniques, such as Kafka, Cassandra, PostgreSQL, MongoDB, various NodeJS applications. Everything was done via Terraform and built as infrastructure as code, this includes networking, loadbalancing, routes, certificates, workload resources (such as a DB for example) and other underlying resources (containers, storage, virtual machines, etc.).\n\n On top of that my team and I was also responsible for maintaining and lifecycling their current OpenShift environments."
+    }
+  ],
   "work": [
     {
       "company": "RedLin PM AB",
@@ -142,8 +186,8 @@
       "startDate": "2022-01-10",
       "endDate": "",
       "keywords": [
-        "red hat",
         "consulting",
+        "red hat",
         "linux system administrator",
         "automation",
         "standardize",
@@ -285,16 +329,6 @@
       "endDate": "2009-01-01",
       "courses": [
         {
-          "name": "Database Administration",
-          "keywords": [
-            "SQL",
-            "relational database theory",
-            "database modelling",
-            "normalization",
-            "troubleshooting"
-          ]
-        },
-        {
           "name": "Network and computer communicationn",
           "keywords": [
             "inetd",
@@ -336,16 +370,6 @@
             "kernel modules",
             "virtualization",
             "storage solution"
-          ]
-        },
-        {
-          "name": "Web server administration",
-          "keywords": [
-            "virtual hosts",
-            "server side includes",
-            "cgi-scripts",
-            "ssl",
-            "logging"
           ]
         }
       ]
