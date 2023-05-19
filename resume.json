@@ -71,8 +71,8 @@
         "jenkins",
         "maven",
         "nexus",
-        "buildconfigs",
-        "deploymentconfigs"
+        "artifactory",
+        "github actions"
       ]
     },
     {
@@ -85,7 +85,8 @@
         "ceph",
         "terraform",
         "aws",
-        "red hat director",
+        "kong",
+        "keycloak",
         "objectstorage s3 / swift"
       ]
     },
@@ -134,6 +135,47 @@
     }
   ],
   "topic_count": false,
+  "assignments": [
+    {
+      "company": "Karolinska Universitetssjukhuset",
+      "position": "OpenShift Specialist / DevOps Engineer",
+      "website": "https://www.karolinska.se",
+      "startDate": "2022-11-01",
+      "endDate": "",
+      "keywords": [
+        "konsult",
+        "openshift",
+        "terraform",
+        "helm",
+        "argocd",
+        "vault",
+        "kong",
+        "github actions",
+        "keycloak",
+        "openshift",
+        "vmware"
+      ],
+      "summary": "",
+      "summary_continue": "På Karolinska universitetssjukhuset är jag en del av DevOps-teamet och hjälper dem att bygga deras nya interna molnlösning baserad på OpenShift. Arbetet innefattar både att bygga själva infrastrukturen, men också att konfigurera och installera alla komponenter som tillsammans bygger upp plattformen. Jag har varit en nyckelspelare i design, installation och implementation av den nya infrastrukturen, detta inkluderar både nätverk och lagring. Jag har även hjälpt till med att förbättra och säkra upp deras befintliga OpenShift-kluster, samt hjälpt till med uppgradering och gjort dem mer stabila. \n\nFör närvarande arbetar jag tillsammans med teamet och hjälper dem att installera och konfigurera komponenter så som Vault, Kong, ArgoCD, GitHub Actions, cert-manager, external-secrets, Confluent, PostgreSQL med flera. Allt vi gör är infrastrucutre-as-code för att säkerställa versionskontroll samt underlätta installations- samt uppgradings-förfaranden. \n\nUöver det har jag även arbetat en hel del med deras VMware-miljö, HPE Synergy Frames och Citrix ADC, där jag automatiserat olika uppgifter med verktyg så som Terraform."
+    },
+    {
+      "company": "Bonnier News",
+      "position": "Cloud Engineer",
+      "website": "https://www.bonniernews.se",
+      "startDate": "2022-01-10",
+      "endDate": "2022-10-25",
+      "keywords": [
+        "konsult",
+        "aws",
+        "gcp",
+        "cloudrun",
+        "kafka",
+        "terraform",
+        "openshift"
+      ],
+      "summary": "",
+      "summary_continue": "Mitt uppdrag på Bonnier News bestod till stor del av att hjälpa olika utvecklarteam med att migrera deras befintliga applikationer från OpenShift till Google Cloud. Detta inkluderade tekniker så som Kafka, Cassandra, PostgreSQL, MongoDB och olika NodeJS-applikationer. Allt gjordes med hjälp av Terraform och infrastructure-as-code. Detta inkluderar nätverk, lastbalansering, route's, certifikat och andra underliggande resurser (så som containrar, lagring, virtuella maskiner osv.). \n\nMitt team och jag var utöver det ansvariga för att underhålla och livscykelhantera de befintliga OpenShift-miljöerna."    }
+  ],
   "work": [
     {
       "company": "RedLin PM AB",
@@ -285,16 +327,6 @@
       "endDate": "2009-01-01",
       "courses": [
         {
-          "name": "Databasadministration",
-          "keywords": [
-            "SQL",
-            "relational database theory",
-            "database modelling",
-            "normalization",
-            "troubleshooting"
-          ]
-        },
-        {
           "name": "Nätverk och datorkommunikation",
           "keywords": [
             "inetd",
@@ -336,16 +368,6 @@
             "kernel modules",
             "virtualization",
             "storage solution"
-          ]
-        },
-        {
-          "name": "Administration av webservrar",
-          "keywords": [
-            "virtual hosts",
-            "server side includes",
-            "cgi-scripts",
-            "ssl",
-            "logging"
           ]
         }
       ]

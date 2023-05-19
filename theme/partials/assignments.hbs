@@ -1,22 +1,23 @@
-{{#if resume.work.length}}
-<section class="section section-work">
+{{#if resume.assignments.length}}
+<section class="section section-assignments">
   <header>
-    <i class="fas fa-briefcase" aria-hidden="true"></i>
-    <h2 class='section-title'>Arbetslivserfarenhet {{#if resume.topic_count}}<span class="item-count">({{resume.work.length}})</span>{{/if}}</h2>
+    <i class="fas fa-check-circle" aria-hidden="true"></i>
+    <h2 class='section-title'>Konsultuppdrag{{#if resume.topic_count}}<span
+        class="item-count">({{resume.assignments.length}})</span>{{/if}}</h2>
   </header>
 
-  <section id="work">
-    {{#each resume.work}}
-    <section class="work-item">
+  <section id="assignments">
+    {{#each resume.assignments}}
+    <section class="assignments-item">
       {{#if company}}
 
       {{#if summary}}
-        {{#if @first}}
-        <input id="work-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
-        {{else}}
-        <input id="work-item-{{@index}}" type="checkbox" class="toggle-item" />
-        {{/if}}
-        <label for="work-item-{{@index}}"></label>
+      {{#if @first}}
+      <input id="assignments-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
+      {{else}}
+      <input id="assignments-item-{{@index}}" type="checkbox" class="toggle-item" />
+      {{/if}}
+      <label for="assignments-item-{{@index}}"></label>
       {{/if}}
 
       <header>
@@ -57,11 +58,11 @@
       </span> {{/if}} {{#if keywords.length}}
       <ul class="keywords">
         {{#each keywords}}
-        <li>{{.}}</li>
+        {{#if (eq . "konsult")}}<li class="{{.}}">{{.}}</li> {{ else }}<li>{{.}}</li>{{/if}}
         {{/each}}
       </ul>
       {{/if}}
-      <div class="item" id="work-item">
+      <div class="item" id="assignments-item">
         {{#if summary}}
         <div class="summary">
           <p>{{paragraphSplit summary}}</p>
@@ -70,11 +71,11 @@
         {{#if highlights.length}}
         <ul class="highlights">
           {{#each highlights}}
-            {{#if indentclass}}
-              <li class="{{ indentclass }}">{{paragraphSplit detail}}</li>
-            {{else}}
-              <li>{{paragraphSplit detail}}</li>
-            {{/if}}
+          {{#if indentclass}}
+          <li class="{{ indentclass }}">{{paragraphSplit detail}}</li>
+          {{else}}
+          <li>{{paragraphSplit detail}}</li>
+          {{/if}}
           {{/each}}
         </ul>
         {{/if}}
