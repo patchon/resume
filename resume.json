@@ -139,7 +139,7 @@
   "assignments": [
     {
       "company": "Karolinska University Hospital",
-      "position": "Karolinska University Hospital",
+      "position": "OpenShift Specialist / DevOps Engineer",
       "website": "https://www.karolinska.se",
       "startDate": "2022-11-01",
       "endDate": "",
@@ -151,7 +151,7 @@
         "argocd",
         "vault",
         "kong",
-        "github acitons",
+        "github actions",
         "keycloak",
         "openshift",
         "vmware"
